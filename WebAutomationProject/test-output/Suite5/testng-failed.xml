@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite5]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test5(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.web.automation.tescases.Time_ibm_web">
+        <methods>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- org.web.automation.tescases.Time_ibm_web -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+</suite> <!-- Failed suite [Suite5] -->
